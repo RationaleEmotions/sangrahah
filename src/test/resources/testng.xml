@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="unit_testcases_suite" verbose="2">
+  <test name="unit_testcases_test">
+    <classes>
+      <class name="com.rationaleemotions.scenarios.one.UnitTestCase"/>
+      <class name="com.rationaleemotions.scenarios.two.UnitTestCase"/>
+      <class name="com.rationaleemotions.scenarios.three.UnitTestCase"/>
+      <class name="com.rationaleemotions.scenarios.four.UnitTestCase"/>
+    </classes>
+  </test>
+</suite>

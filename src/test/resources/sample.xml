@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="336_Suite-MySuite-InVM" parallel="false" configfailurepolicy="continue">
+    <test name="336_test_1" skipfailedinvocationcounts="">
+        <groups>
+            <define name="">
+                <include name="" description="" invocation-numbers=""/>
+            </define>
+            <run>
+                <include name="A"/>
+                <exclude name="a"/>
+                <exclude name="b"/>
+            </run>
+            <dependencies>
+                <group name="" depends-on=""/>
+                <group name="" depends-on=""></group>
+            </dependencies>
+        </groups>
+        <classes>
+            <class name="com.rationaleemotions.AppTest">
+                <parameter name="" value=""></parameter>
+                <methods>
+                    <include name="">
+
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
