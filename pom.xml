@@ -10,6 +10,7 @@
   <version>1.0.0-SNAPSHOT</version>
 
   <name>sangrahah</name>
+
   <description>
     An annotated approach to building TestNG suites instead of working with xmls.
   </description>
@@ -18,6 +19,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -25,6 +27,13 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <scm>
+    <connection>scm:git:git@github.com:RationaleEmotions/sangrahah.git</connection>
+    <developerConnection>scm:git:git@github.com:RationaleEmotions/sangrahah.git</developerConnection>
+    <url>https://github.com/RationaleEmotions/sangrahah</url>
+  </scm>
+
   <developers>
     <developer>
       <id>krmahadevan</id>
@@ -35,6 +44,11 @@
       </roles>
     </developer>
   </developers>
+
+  <issueManagement>
+    <url>https://github.com/RationaleEmotions/sangrahah/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
 
   <dependencies>
     <dependency>
@@ -50,6 +64,17 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+  
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
