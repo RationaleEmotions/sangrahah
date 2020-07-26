@@ -1,14 +1,12 @@
-# Sangraha
-
-When translated in English it means *Collection*.
+# Sangrahah (means *Collection*).
 
 This library is an answer to a [TestNG defect](https://github.com/cbeust/testng/issues/2331).
 
-**Sangraha** lets you define a suite via a class using annotations as a means to creating an aggregation for execution. 
+**Sangrahah** lets you define a suite via a class using annotations as a means to creating an aggregation for execution. 
 
 Its similar to what already exists in [JUnit](https://github.com/junit-team/junit4/wiki/aggregating-tests-in-suites).
 
-Instead of creating a TestNG suite via an xml file, **Sangraha** lets you define a suite file via a bunch of annotations.
+Instead of creating a TestNG suite via an xml file, **Sangrahah** lets you define a suite file via a bunch of annotations.
 
 ## Pre-requisites:
 
