@@ -21,7 +21,7 @@ To consume this library add the below as a maven dependency:
 <dependency>
   <groupId>com.rationaleemotions</groupId>
   <artifactId>sangrahah</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
